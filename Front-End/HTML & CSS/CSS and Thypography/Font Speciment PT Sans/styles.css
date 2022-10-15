@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+html {
+    font-family: PT Sans, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    margin: 80px 60px;
+}
+
+#square {
+    list-style-type: square;
+}
+
+#disc {
+    list-style-type: disc;
+}
+
+#circle {
+    list-style-type: circle;
+}
