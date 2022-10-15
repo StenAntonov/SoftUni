@@ -1,0 +1,63 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;;
+    line-height: 1.5;
+}
+
+body {
+    margin: 80px 60px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+
+#square {
+    list-style-type: square;
+}
+
+#disc {
+    list-style-type: disc;
+}
+
+#circle {
+    list-style-type: circle;
+}
+
+table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #CCCCCC;
+    text-align: left;
+}
+
+table,td, th {
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    border-style: solid;
+    padding: 5px;
+}
+
+tr:nth-child(odd) td{
+    background: rgb(241, 241, 241);
+}
+
+tr:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+blockquote {
+    border-left: 2px solid rgb(221, 221, 221);
+    font-style: italic;
+    padding: 5px 30px;
+}
+
+blockquote p:nth-child(3) {
+    text-align: right;
+}
